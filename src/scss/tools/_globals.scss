@@ -1,0 +1,58 @@
+:root {
+
+    --section-gap: 8rem;
+    --section-gap-inner: calc( var(--section-gap) * 0,75 )
+
+    --gap-xl: 4rem;
+    --gap-L: 3rem;
+    --gap-M: 2rem;
+    --gap-S: 1rem;
+
+    --border-radius: 10px;
+    
+    --color-dark: #222;
+    --color-dark-200: #333;
+    --color-dark-300: #444;
+    --color-dark-400: #555;
+    --color-dark-500: #666;
+    --color-dark-600: #777;
+    --color-dark-700: #888;
+    --color-dark-800: #999;
+    --color-dark-900: #d5d5d5;
+
+    --color-accent: #a7b1fe;
+    --color-accent-200: #009fbb;
+    --color-accent-300: #009fbb;
+    --color-accent-400: #009fbb;
+    --color-accent-500: #009fbb;
+    --color-accent-600: #009fbb;
+    --color-accent-700: #009fbb;
+    --color-accent-800: #009fbb;
+    --color-accent-900: #009fbb;
+
+    --color-light: rgb(203, 145, 145);
+    --color-light-200: rgb(203, 145, 145);
+    --color-light-300: rgb(203, 145, 145);
+    --color-light-400: rgb(203, 145, 145);
+    --color-light-500: rgb(203, 145, 145);
+    --color-light-600: rgb(203, 145, 145);
+    --color-light-700: rgb(203, 145, 145);
+    --color-light-800: rgb(203, 145, 145);
+    --color-light-900: rgb(203, 145, 145);
+
+    --font-sans: 'areal', sans-serif;
+    --font-serif: 'georgia', serif;
+
+    --line-height: 1.5;
+
+    --font-scale: 1.25;
+    --font-size: 1rem;
+
+    --font-size-1: var(--font-size);
+    --font-size-2: calc ( var(--font-size-1) * var(--font-scale) );
+    --font-size-3: calc ( var(--font-size-2) * var(--font-scale) );
+    --font-size-4: calc ( var(--font-size-3) * var(--font-scale) );
+    --font-size-5: calc ( var(--font-size-4) * var(--font-scale) );
+    --font-size-6: calc ( var(--font-size-5) * var(--font-scale) );
+
+}
